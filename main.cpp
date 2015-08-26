@@ -1,4 +1,4 @@
-#define _USE_MATH_DEFINES
+п»ї#define _USE_MATH_DEFINES
 #include <SFML/Graphics.hpp>
 #include <cmath>
 
@@ -160,7 +160,7 @@ int main()
 		if (bossLeftLegUpMovingBack)
 		{
 			short stepCode2 = step(frontLegUp, -bossLeftLegUpRotationAngle, bossLeftLegUpRotationAngleStop);
-			step(frontLegDown, -bossLeftLegUpRotationAngle, bossLeftLegUpRotationAngleStop); // для синхронности верха и низа ноги
+			step(frontLegDown, -bossLeftLegUpRotationAngle, bossLeftLegUpRotationAngleStop); // РґР»СЏ СЃРёРЅС…СЂРѕРЅРЅРѕСЃС‚Рё РІРµСЂС…Р° Рё РЅРёР·Р° РЅРѕРіРё
 			bossBody.move(-1, 0);
 			if (stepCode2 == 1)
 			{
@@ -206,7 +206,7 @@ int main()
 		if (bossRightLegUpMovingBack)
 		{
 			short stepCode = step(backLegUp, -bossRightLegUpRotationAngle, bossRightLegUpRotationAngleStop);
-			step(backLegDown, -bossRightLegUpRotationAngle, bossRightLegUpRotationAngleStop); // для синхронности верха и низа ноги
+			step(backLegDown, -bossRightLegUpRotationAngle, bossRightLegUpRotationAngleStop); // РґР»СЏ СЃРёРЅС…СЂРѕРЅРЅРѕСЃС‚Рё РІРµСЂС…Р° Рё РЅРёР·Р° РЅРѕРіРё
 			bossBody.move(-1, 0);
 			if (stepCode == 1)
 			{
