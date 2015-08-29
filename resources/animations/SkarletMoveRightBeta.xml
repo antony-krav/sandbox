@@ -1,0 +1,20 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="ScarletRun2Right.png" transparentColor="">
+ <animation title="Default animation" delay="150">
+  <cut w="206" x="0" y="0" h="247" row="1" col="1"/>
+  <cut w="206" x="207" y="0" h="247" row="1" col="1"/>
+  <cut w="206" x="413" y="0" h="247" row="1" col="1"/>
+  <cut w="206" x="618" y="1" h="246" row="1" col="1"/>
+  <cut w="194" x="825" y="0" h="247" row="1" col="1"/>
+  <cut w="205" x="1" y="247" h="247" row="1" col="1"/>
+  <cut w="206" x="206" y="247" h="247" row="1" col="1"/>
+  <cut w="206" x="413" y="248" h="247" row="1" col="1"/>
+  <cut w="206" x="620" y="247" h="247" row="1" col="1"/>
+  <cut w="193" x="827" y="248" h="247" row="1" col="1"/>
+  <cut w="206" x="1" y="497" h="247" row="1" col="1"/>
+  <cut w="206" x="208" y="497" h="247" row="1" col="1"/>
+  <cut w="206" x="414" y="497" h="247" row="1" col="1"/>
+  <cut w="206" x="620" y="497" h="247" row="1" col="1"/>
+  <cut w="194" x="826" y="497" h="247" row="1" col="1"/>
+ </animation>
+</sprites>

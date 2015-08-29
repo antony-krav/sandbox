@@ -1,0 +1,33 @@
+﻿Сборка начата 29.08.2015 16:27:42.
+     1>Проект "C:\Users\KRaV\Downloads\Scarlet v0_0_4\Kychka-Pc-Project\Kychka-Pc-Project.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\SFML-2.3.1-32\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D SFML_DYNAMIC /D _MBCS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\krav\downloads\scarlet v0_0_4\kychka-pc-project\main.cpp(96): warning C4305: аргумент: усечение из "double" к "float"
+     1>c:\users\krav\downloads\scarlet v0_0_4\kychka-pc-project\main.cpp(112): warning C4244: =: преобразование "sf::Int32" в "float", возможна потеря данных
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\KRaV\Downloads\Scarlet v0_0_4\Debug\Kychka-Pc-Project.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SFML-2.3.1-32\lib" "sfml-window-d.lib" "sfml-graphics-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\KRaV\Downloads\Scarlet v0_0_4\Debug\Kychka-Pc-Project.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\KRaV\Downloads\Scarlet v0_0_4\Debug\Kychka-Pc-Project.lib" /MACHINE:X86 Debug\AudioManager.obj
+         Debug\MusicManager.obj
+         Debug\SoundManager.obj
+         Debug\AnimatedSprite.obj
+         Debug\Animation.obj
+         Debug\Enemy.obj
+         Debug\Entity.obj
+         Debug\Hero.obj
+         Debug\hp_bar.obj
+         Debug\simplegroundenemy.obj
+         Debug\Level.obj
+         Debug\tinystr.obj
+         Debug\tinyxml.obj
+         Debug\tinyxmlerror.obj
+         Debug\tinyxmlparser.obj
+         Debug\main.obj
+         Debug\button.obj
+         Debug\pause.obj
+         Debug\startmenu.obj
+         Kychka-Pc-Project.vcxproj -> C:\Users\KRaV\Downloads\Scarlet v0_0_4\Debug\Kychka-Pc-Project.exe
+     1>Сборка проекта "C:\Users\KRaV\Downloads\Scarlet v0_0_4\Kychka-Pc-Project\Kychka-Pc-Project.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.88

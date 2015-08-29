@@ -1,0 +1,21 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="TanyaRunLeft.png" transparentColor="">
+ <animation title="Default animation" delay="150">
+  <cut w="300" x="0" y="3" h="250" row="1" col="1"/>
+  <cut w="300" x="300" y="3" h="250" row="1" col="1"/>
+  <cut w="300" x="600" y="3" h="250" row="1" col="1"/>
+  <cut w="300" x="900" y="3" h="250" row="1" col="1"/>
+  <cut w="300" x="0" y="253" h="250" row="1" col="1"/>
+  <cut w="300" x="300" y="253" h="250" row="1" col="1"/>
+  <cut w="300" x="600" y="253" h="250" row="1" col="1"/>
+  <cut w="300" x="900" y="253" h="250" row="1" col="1"/>
+  <cut w="300" x="0" y="503" h="250" row="1" col="1"/>
+  <cut w="300" x="300" y="503" h="250" row="1" col="1"/>
+  <cut w="300" x="600" y="503" h="250" row="1" col="1"/>
+  <cut w="300" x="900" y="503" h="250" row="1" col="1"/>
+  <cut w="300" x="0" y="753" h="250" row="1" col="1"/>
+  <cut w="300" x="300" y="753" h="250" row="1" col="1"/>
+  <cut w="300" x="600" y="753" h="250" row="1" col="1"/>
+  <cut w="300" x="900" y="753" h="250" row="1" col="1"/>
+ </animation>
+</sprites>
